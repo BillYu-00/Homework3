@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+.sm-body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color:LightGrey ;
+}
+
+.sm-row {
+  width: 25%;
+  float: left;
+  height: 100vh;
+}
+
+@keyframes change-color {
+  0%{
+    background-color: black;
+  }
+  50%{
+    background-color: lightGrey;
+  }
+  100%{
+    background-color: white;
+  }
+}
+
+.sm-box{
+  width: 99%;
+  height: 350px;
+  margin: 2px;
+  background-color: black;
+  animation: change-color 5s infinite;
+}
+
+@keyframes change-color2 {
+  0%{
+    background-color: white;
+  }
+  50%{
+    background-color: lightGrey;
+  }
+  100%{
+    background-color: black;
+  }
+}
+
+.sm-box2{
+  height: 400px;
+  margin: 2px;
+  background-color: white;
+  animation: change-color2 5s infinite;
+}
+
+@keyframes change-color3 {
+  0%{
+    background-color: SeaGreen;
+  }
+  50%{
+    background-color: Aqua;
+  }
+  100%{
+    background-color: Violet;
+  }
+}
+
+.sm-box3{
+    height: 100vh;
+    margin: 2px;
+    background-color: SeaGreen;
+      animation: change-color3 5s infinite;
+}
+.sm-border{
+  border: 7px solid black;
+}
+.im-image{
+  width: 29%%;
+}
+
+.im-backgroundimage-container {
+  width: 50%;
+  height: 100vh;
+  border: 7px solid black;
+  background-image: url(../images/women.jpg);
+  background-position: top;
+  background-size: cover;
+  float: left;
+}
